@@ -28,7 +28,7 @@ public class PriorityQueueTest {
     }
 
     @Test
-    public void sum() {
+    public void check_order() {
         PriorityQueue<Integer> queue = new PriorityQueue<Integer>(randomArr);
         for (int i = 0; i < queue.size(); i++) {
             assertEquals(queue.poll(), expected.get(i));
